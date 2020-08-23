@@ -1,0 +1,19 @@
+.Side-bar
+  .Side-bar__user-name
+    .Top-items
+      .Top-items__name
+        タロウ
+      .Top-items__icons
+        = link_to "#", class: "Top-items__icons__edit" do
+          = icon('far', 'edit')
+          %span<>
+        = link_to "#", class: "Top-items__icons__cog" do
+          = icon('fas', 'cog')
+          %span<>
+  
+  .Side-bar__group-list
+    .Group
+      .Group__name
+        TESTグループ
+      .Group__message
+        まだメッセージがありません
