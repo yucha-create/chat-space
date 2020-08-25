@@ -2,12 +2,12 @@
   .Side-bar__user-name
     .Top-items
       .Top-items__name
-        タロウ
+        = current_user.name
       .Top-items__icons
         = link_to "#", class: "Top-items__icons__edit" do
           = icon('far', 'edit')
           %span<>
-        = link_to "#", class: "Top-items__icons__cog" do
+        = link_to edit_user_path(current_user), class: "Top-items__icons__cog" do
           = icon('fas', 'cog')
           %span<>
   
