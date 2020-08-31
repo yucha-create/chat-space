@@ -10,14 +10,19 @@
     justify-content: space-between;
     .Group  {
       padding-top: 35px;
-      &__name {
+        &__name {
         color: #333333;
         font-size: 20px;
+        list-style: none;
       }
       &__member {
+        display: flex;
         color: #999999;
         font-size: 12px;
         margin-top: 15px;
+        &__name {
+          margin-left: 5px;
+        }
       }
     }
     .Edit-button {
