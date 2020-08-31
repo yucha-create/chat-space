@@ -31,6 +31,7 @@
 - belongs_to :user
 - belongs_to :group
 
+
 ## users_groupsテーブル 
 |Column|Type|Options|
 |------|----|-------|
